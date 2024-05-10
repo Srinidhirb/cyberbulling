@@ -1,0 +1,255 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+a{
+    text-decoration: none;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="password"] {
+    width: 96%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #bdd5df;
+    color: black;
+    width: 40%;
+    height: 5vh;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #000008;
+}
+
+button[type="submit"]:hover {
+    background-color: #091839;
+    color: white;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.valid {
+    background-color: #DFF2BF;
+    border: 1px solid #4F8A10;
+    color: #4F8A10;
+}
+
+.invalid {
+    background-color: #FFBABA;
+    border: 1px solid #D8000C;
+    color: #D8000C;
+}
+#model-container {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5; /* Soft Gray background */
+    color: #333; /* Dark text color */
+    
+}
+
+header {
+    background-color: #133245; /* Electric Blue header background */
+    padding: 20px; /* Padding around the header content */
+    color: #fff; /* Light text color */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Align logo and navigation items */
+    align-items: center; /* Vertically center items */
+}
+
+.logo img {
+    max-height: 50px; /* Adjust the max height of the logo */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Display navigation items horizontally */
+    margin-right: 40px; /* Add space between navigation items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last navigation item */
+}
+
+nav ul li a {
+    color: #fff; /* Text color for navigation links */
+    text-decoration: none; /* Remove underline from links */
+    
+}
+
+
+/* CSS for the dropdown menu */
+.dropdown {
+    padding: 10px 0 0 0;
+    display: none; /* Hide the dropdown menu by default */
+    position: absolute; /* Position the dropdown absolutely */
+    background-color: #092b3d; /* Background color for the dropdown */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    z-index: 1; /* Ensure the dropdown appears above other content */
+}
+
+.dropdown li {
+    padding: 10px; /* Add padding to each dropdown item */
+}
+
+/* CSS to show the dropdown when hovering over the Products link */
+li:hover .dropdown {
+    display: flex;
+    flex-direction: column;
+     /* Show the dropdown menu when hovering over the Products link */
+}
+a{
+    text-decoration: none;
+    color: #ddd;
+}
+.background-section {
+    position: relative;
+    background-image: url('bgmain.jpg'); /* Specify the path to your background image */
+    background-size: cover; 
+    background-repeat: no-repeat;/* Cover the entire div with the background image */
+    background-position: top ;
+    height: 98vh; /* Adjust the height as needed */
+    text-align: left; /* Align the text to the left */
+    padding: 0 20px; /* Add padding for better readability */
+    display: flex; /* Use flexbox for layout */
+    
+    color: #000000; /* Text color */
+}
+.slogan{
+    margin: 180px 0px 0px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    
+}
+.slogan h1{
+    font-size: 2rem;
+    color: #ddd;
+    
+    width: 100%;
+}
+.slogan p{
+    margin: 20px 0 0 0;
+    font-size: 01rem;
+    color: #ddd;
+    
+}
+.slogan .row {
+    width: 23%;
+    text-align: right;
+}
+.row h1{
+    font-size: 2rem;
+    color: #ddd;
+    text-align: right;
+    width: 100%;
+}
+.row1 h1{
+    font-size: 2rem;
+    color: #ddd;
+    text-align: left;
+    width: 100%;
+}
+.slogan .row1 {
+    width: 23%;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+
+/* services */
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: linear-gradient(to bottom, #21527f, #06122e); 
+    margin: 0;
+}
+.card-row {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+  }
+  
+  .morphic-card {
+    width: 26%; /* Adjusts the card width to fit 4 in a row */
+    animation: slideDown 0.5s ease-out forwards;
+   
+    margin-right: 2%;
+    height: 70%;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(33, 33, 33, 0.718), 0 6px 6px rgba(31, 29, 29, 0.805);
+    transition: transform 0.3s ease-in-out;
+  }
+  .morphic-card:hover {
+    transform: translateY(-10px); /* Adds interaction on hover */
+  }
+  .morphic-card img {
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+    margin-bottom: 15px; /* Adds space between the image and the card content */
+  }
+  .content-detail {
+    text-align: center;
+    color: #ddd;
+    padding: 10px;
+    
+  }
+  .morphic-card:nth-child(even) {
+    margin-top: 40px; /* Adjust this value as needed */
+  }
+
+.heading{
+    color: #ddd;
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+    background: #21527f; 
+}

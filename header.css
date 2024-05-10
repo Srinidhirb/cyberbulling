@@ -1,0 +1,59 @@
+
+header {
+    background-color: #133245; /* Electric Blue header background */
+    padding: 20px; /* Padding around the header content */
+    color: #fff; /* Light text color */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Align logo and navigation items */
+    align-items: center; /* Vertically center items */
+}
+
+.logo img {
+    max-height: 50px; /* Adjust the max height of the logo */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Display navigation items horizontally */
+    margin-right: 40px; /* Add space between navigation items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last navigation item */
+}
+
+nav ul li a {
+    color: #fff; /* Text color for navigation links */
+    text-decoration: none; /* Remove underline from links */
+    
+}
+
+
+/* CSS for the dropdown menu */
+.dropdown {
+    padding: 10px 0 0 0;
+    display: none; /* Hide the dropdown menu by default */
+    position: absolute; /* Position the dropdown absolutely */
+    background-color: #092b3d; /* Background color for the dropdown */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    z-index: 1; /* Ensure the dropdown appears above other content */
+}
+
+.dropdown li {
+    padding: 10px; /* Add padding to each dropdown item */
+}
+
+/* CSS to show the dropdown when hovering over the Products link */
+li:hover .dropdown {
+    display: flex;
+    flex-direction: column;
+     /* Show the dropdown menu when hovering over the Products link */
+}
+a{
+    text-decoration: none;
+}

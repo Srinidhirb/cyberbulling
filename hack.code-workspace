@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "hack",
+			"path": "."
+		},
+		{
+			"name": "static",
+			"path": "../../../cyberbulling/pass_management/static"
+		},
+		{
+			"name": "img",
+			"path": "../../../cyberbulling/pass_management/static/img"
+		}
+	],
+	"settings": {}
+}
